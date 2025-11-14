@@ -1,0 +1,31 @@
+AvailableBytes,CommittedBytes,WorkingSet,WorkingSetPrivate,responses,actual_values
+High,Low,Low,Normal,Normal,Normal
+High,Low,Low,Normal,Normal,Normal
+High,Low,Low,Normal,Normal,Normal
+High,Low,Low,Normal,Normal,Normal
+High,Normal,Low,Normal,Normal,Normal
+High,Low,Low,Normal,Normal,Normal
+Normal,Low,Normal,Normal,Normal,Normal
+High,Low,Normal,Low,Normal,Normal
+Normal,Low,High,High,Normal,Ransomware
+Low,Normal,High,High,Ransomware,Ransomware
+Low,High,High,High,Ransomware,Ransomware
+Very Low,High,High,High,Ransomware,Ransomware
+Very Low,Normal,Very High,Normal,Normal,Ransomware
+Normal,Normal,Normal,Normal,Normal,Normal
+Low,Very High,High,Very High,Ransomware,Ransomware
+Normal,Normal,Normal,Normal,Normal,Normal
+Normal,High,Normal,Normal,Normal,Normal
+Normal,High,Normal,Normal,Normal,Normal
+Normal,Normal,Normal,Normal,Normal,Normal
+Normal,Normal,Normal,Normal,Normal,Normal
+Normal,Normal,Normal,Normal,Normal,Normal
+Normal,Normal,Normal,Normal,Normal,Normal
+Normal,Normal,Normal,Normal,Normal,Normal
+Normal,Normal,Normal,Normal,Normal,Normal
+Normal,Normal,Normal,Normal,Normal,Normal
+Normal,Normal,Normal,Normal,Normal,Normal
+Normal,Normal,Normal,Normal,Normal,Normal
+Normal,Normal,Normal,Normal,Normal,Normal
+Normal,Normal,Normal,Normal,Normal,Normal
+Normal,Normal,Normal,Normal,Normal,Normal
