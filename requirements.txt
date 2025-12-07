@@ -4,22 +4,26 @@ numpy>=1.24.0
 scikit-learn>=1.3.0
 
 # Graph Construction & Analysis
-[cite_start]networkx>=3.1        # Used for constructing the directed graph (DiGraph) [cite: 33]
-[cite_start]pyvis>=0.3.2         # Used for interactive HTML visualization of the graph [cite: 132]
+networkx>=3.1
+pyvis>=0.3.2
 
 # Visualization
-[cite_start]matplotlib>=3.7.1    # Used for static PNG generation and plotting [cite: 121, 132]
-[cite_start]seaborn>=0.12.2      # Often used alongside matplotlib for statistical plots (implied by "clean default plot style") [cite: 122]
+matplotlib>=3.7.1
+seaborn>=0.12.2
 
 # Machine Learning & Deep Learning
-[cite_start]torch>=2.0.1         # PyTorch: Required for local LLM inference (CUDA support recommended) [cite: 123]
-[cite_start]transformers>=4.30.0 # Hugging Face Transformers: For loading FLAN-T5 and other models [cite: 121]
-[cite_start]sentence-transformers>=2.2.2 # For local embedding generation [cite: 54]
+torch>=2.0.1
+transformers>=4.30.0
+sentence-transformers>=2.2.2
 
 # Large Language Models (LLM) Integration
-[cite_start]openai>=0.27.8       # For accessing GPT-5 Mini API [cite: 56, 144]
-[cite_start]accelerate>=0.20.3   # Helper for running PyTorch models efficiently on GPU [cite: 123]
+openai>=0.27.8
+accelerate>=0.20.3
+
+# Visualization / Reporting
+plotly>=5.0.0
+kaleido>=0.2.1
 
 # Utilities
-tqdm>=4.65.0                     # Progress bars for long-running graph processing tasks
-python-dotenv>=1.0.0.            # For managing API keys (OpenAI) securely
+tqdm>=4.65.0
+python-dotenv>=1.0.0
