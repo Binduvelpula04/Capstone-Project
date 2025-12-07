@@ -21,5 +21,5 @@ scikit-learn>=1.3.0
 [cite_start]accelerate>=0.20.3   # Helper for running PyTorch models efficiently on GPU [cite: 123]
 
 # Utilities
-tqdm>=4.65.0         # Progress bars for long-running graph processing tasks
-python-dotenv>=1.0.0 # For managing API keys (OpenAI) securely
+tqdm>=4.65.0                     # Progress bars for long-running graph processing tasks
+python-dotenv>=1.0.0.            # For managing API keys (OpenAI) securely
