@@ -1,0 +1,1742 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="time_diff" attr.type="double"/>
+<key id="d5" for="edge" attr.name="weight" attr.type="long"/>
+<key id="d4" for="edge" attr.name="relationship" attr.type="string"/>
+<key id="d3" for="node" attr.name="frequency" attr.type="long"/>
+<key id="d2" for="node" attr.name="description" attr.type="string"/>
+<key id="d1" for="node" attr.name="label" attr.type="string"/>
+<key id="d0" for="node" attr.name="node_type" attr.type="string"/>
+<graph edgedefault="directed"><node id="forensicsacl2">
+  <data key="d0">System</data>
+  <data key="d1">forensicsacl2</data>
+</node>
+<node id="Event_5379">
+  <data key="d0">Event</data>
+  <data key="d1">Event_5379</data>
+  <data key="d2">Credential Manager credentials were read.  Subject: 	Security ID:		S-1-5-18 	Account Name:		forensic...</data>
+  <data key="d3">112</data>
+</node>
+<node id="Event_4624">
+  <data key="d0">Event</data>
+  <data key="d1">Event_4624</data>
+  <data key="d2">An account was successfully logged on.  Subject: 	Security ID:		S-1-0-0 	Account Name:		- 	Account D...</data>
+  <data key="d3">91</data>
+</node>
+<node id="Event_4672">
+  <data key="d0">Event</data>
+  <data key="d1">Event_4672</data>
+  <data key="d2">Special privileges assigned to new logon.  Subject: 	Security ID:		S-1-5-18 	Account Name:		SYSTEM 	...</data>
+  <data key="d3">88</data>
+</node>
+<node id="Event_16">
+  <data key="d0">Event</data>
+  <data key="d1">Event_16</data>
+  <data key="d2">The iommu fault reporting has been initialized.</data>
+  <data key="d3">57</data>
+</node>
+<node id="Event_4799">
+  <data key="d0">Event</data>
+  <data key="d1">Event_4799</data>
+  <data key="d2">A security-enabled local group membership was enumerated.  Subject: 	Security ID:		S-1-5-20 	Account...</data>
+  <data key="d3">27</data>
+</node>
+<node id="Event_15">
+  <data key="d0">Event</data>
+  <data key="d1">Event_15</data>
+  <data key="d2">Hive \SystemRoot\System32\Config\SOFTWARE was reorganized with a starting size of 74772480 bytes and...</data>
+  <data key="d3">25</data>
+</node>
+<node id="Event_1034">
+  <data key="d0">Event</data>
+  <data key="d1">Event_1034</data>
+  <data key="d2">Duplicate definition of policy found. Policy name=AAD-BlockAADWorkplaceJoin-Default  Priority=100</data>
+  <data key="d3">20</data>
+</node>
+<node id="Event_44">
+  <data key="d0">Event</data>
+  <data key="d1">Event_44</data>
+  <data key="d2">Windows Update started downloading an update.</data>
+  <data key="d3">20</data>
+</node>
+<node id="Event_43">
+  <data key="d0">Event</data>
+  <data key="d1">Event_43</data>
+  <data key="d2">Installation Started: Windows has started installing the following update: Security Intelligence Upd...</data>
+  <data key="d3">14</data>
+</node>
+<node id="Event_4798">
+  <data key="d0">Event</data>
+  <data key="d1">Event_4798</data>
+  <data key="d2">A user's local group membership was enumerated.  Subject: 	Security ID:		S-1-5-18 	Account Name:		fo...</data>
+  <data key="d3">13</data>
+</node>
+<node id="Event_4688">
+  <data key="d0">Event</data>
+  <data key="d1">Event_4688</data>
+  <data key="d2">A new process has been created.  Creator Subject: 	Security ID:		S-1-5-18 	Account Name:		- 	Account...</data>
+  <data key="d3">11</data>
+</node>
+<node id="Event_6">
+  <data key="d0">Event</data>
+  <data key="d1">Event_6</data>
+  <data key="d2">File System Filter 'FileInfo' (10.0, ‎2062‎-‎12‎-‎23T05:21:06.000000000Z) has successfully loaded an...</data>
+  <data key="d3">11</data>
+</node>
+<node id="Event_5061">
+  <data key="d0">Event</data>
+  <data key="d1">Event_5061</data>
+  <data key="d2">Cryptographic operation.  Subject: 	Security ID:		S-1-5-18 	Account Name:		forensicsacl2$ 	Account D...</data>
+  <data key="d3">11</data>
+</node>
+<node id="Event_5058">
+  <data key="d0">Event</data>
+  <data key="d1">Event_5058</data>
+  <data key="d2">Key file operation.  Subject: 	Security ID:		S-1-5-18 	Account Name:		forensicsacl2$ 	Account Domain...</data>
+  <data key="d3">11</data>
+</node>
+<node id="Event_19">
+  <data key="d0">Event</data>
+  <data key="d1">Event_19</data>
+  <data key="d2">Installation Successful: Windows successfully installed the following update: Security Intelligence ...</data>
+  <data key="d3">11</data>
+</node>
+<node id="Event_16384">
+  <data key="d0">Event</data>
+  <data key="d1">Event_16384</data>
+  <data key="d2">Successfully scheduled Software Protection service for re-start at 2024-07-03T16:53:34Z. Reason: Rul...</data>
+  <data key="d3">9</data>
+</node>
+<node id="Event_16394">
+  <data key="d0">Event</data>
+  <data key="d1">Event_16394</data>
+  <data key="d2">Offline downlevel migration succeeded.</data>
+  <data key="d3">8</data>
+</node>
+<node id="Event_7040">
+  <data key="d0">Event</data>
+  <data key="d1">Event_7040</data>
+  <data key="d2">The start type of the Background Intelligent Transfer Service service was changed from demand start ...</data>
+  <data key="d3">8</data>
+</node>
+<node id="Event_5059">
+  <data key="d0">Event</data>
+  <data key="d1">Event_5059</data>
+  <data key="d2">Key migration operation.  Subject: 	Security ID:		S-1-5-18 	Account Name:		forensicsacl2$ 	Account D...</data>
+  <data key="d3">8</data>
+</node>
+<node id="Event_4648">
+  <data key="d0">Event</data>
+  <data key="d1">Event_4648</data>
+  <data key="d2">A logon was attempted using explicit credentials.  Subject: 	Security ID:		S-1-5-18 	Account Name:		...</data>
+  <data key="d3">5</data>
+</node>
+<node id="Event_20">
+  <data key="d0">Event</data>
+  <data key="d1">Event_20</data>
+  <data key="d2">The last shutdown's success status was true. The last boot's success status was true.</data>
+  <data key="d3">5</data>
+</node>
+<node id="Event_1">
+  <data key="d0">Event</data>
+  <data key="d1">Event_1</data>
+  <data key="d2">The VM and host networking components successfully negotiated protocol version '6.1'</data>
+  <data key="d3">5</data>
+</node>
+<node id="Event_11">
+  <data key="d0">Event</data>
+  <data key="d1">Event_11</data>
+  <data key="d2">Miniport NIC 'Microsoft Hyper-V Network Adapter' restarted</data>
+  <data key="d3">4</data>
+</node>
+<node id="Event_258">
+  <data key="d0">Event</data>
+  <data key="d1">Event_258</data>
+  <data key="d2">The storage optimizer successfully completed defragmentation on Windows (C:)</data>
+  <data key="d3">4</data>
+</node>
+<node id="Event_0">
+  <data key="d0">Event</data>
+  <data key="d1">Event_0</data>
+  <data key="d2">Service stopped.</data>
+  <data key="d3">3</data>
+</node>
+<node id="Event_8230">
+  <data key="d0">Event</data>
+  <data key="d1">Event_8230</data>
+  <data key="d2">The rules engine successfully re-evaluated the schedule. Kernel policies: Security-SPP-Action-StateD...</data>
+  <data key="d3">3</data>
+</node>
+<node id="Event_10">
+  <data key="d0">Event</data>
+  <data key="d1">Event_10</data>
+  <data key="d2">Miniport NIC 'Microsoft Hyper-V Network Adapter' paused</data>
+  <data key="d3">3</data>
+</node>
+<node id="Event_10016">
+  <data key="d0">Event</data>
+  <data key="d1">Event_10016</data>
+  <data key="d2">The application-specific permission settings do not grant Local Launch permission for the COM Server...</data>
+  <data key="d3">3</data>
+</node>
+<node id="Event_98">
+  <data key="d0">Event</data>
+  <data key="d1">Event_98</data>
+  <data key="d2">Volume C: (\Device\HarddiskVolume4) is healthy.  No action is needed.</data>
+  <data key="d3">3</data>
+</node>
+<node id="Event_1033">
+  <data key="d0">Event</data>
+  <data key="d1">Event_1033</data>
+  <data key="d2">These policies are being excluded since they are only defined with override-only attribute. Policy N...</data>
+  <data key="d3">2</data>
+</node>
+<node id="Event_1003">
+  <data key="d0">Event</data>
+  <data key="d1">Event_1003</data>
+  <data key="d2">The Software Protection service has completed licensing status check. Application Id=55c92734-d682-4...</data>
+  <data key="d3">2</data>
+</node>
+<node id="Event_264">
+  <data key="d0">Event</data>
+  <data key="d1">Event_264</data>
+  <data key="d2">The storage optimizer couldn't complete slab consolidation on Windows (C:) because: The slab consoli...</data>
+  <data key="d3">2</data>
+</node>
+<node id="Event_1001">
+  <data key="d0">Event</data>
+  <data key="d1">Event_1001</data>
+  <data key="d2">Fault bucket , type 0 Event Name: StoreAgentInstallFailure1 Response: Not available Cab Id: 0  Probl...</data>
+  <data key="d3">2</data>
+</node>
+<node id="Event_18">
+  <data key="d0">Event</data>
+  <data key="d1">Event_18</data>
+  <data key="d2">There are 0x1 boot options on this system.</data>
+  <data key="d3">2</data>
+</node>
+<node id="Event_8197">
+  <data key="d0">Event</data>
+  <data key="d1">Event_8197</data>
+  <data key="d2">SLUI.exe was launched with the following command-line parameters: RuleId=502ff3ba-669a-4674-bbb1-601...</data>
+  <data key="d3">2</data>
+</node>
+<node id="Event_24">
+  <data key="d0">Event</data>
+  <data key="d1">Event_24</data>
+  <data key="d2">The time zone information was refreshed with exit reason 0. Current time zone bias is 0.</data>
+  <data key="d3">2</data>
+</node>
+<node id="Event_27">
+  <data key="d0">Event</data>
+  <data key="d1">Event_27</data>
+  <data key="d2">The boot type was 0x0.</data>
+  <data key="d3">1</data>
+</node>
+<node id="Event_25">
+  <data key="d0">Event</data>
+  <data key="d1">Event_25</data>
+  <data key="d2">The boot menu policy was 0x1.</data>
+  <data key="d3">1</data>
+</node>
+<node id="Event_12">
+  <data key="d0">Event</data>
+  <data key="d1">Event_12</data>
+  <data key="d2">The operating system started at system time ‎2024‎-‎06‎-‎26T16:50:35.500000000Z.</data>
+  <data key="d3">1</data>
+</node>
+<node id="Event_3">
+  <data key="d0">Event</data>
+  <data key="d1">Event_3</data>
+  <data key="d2">The miniport 'Microsoft Hyper-V Network Adapter' was successfully initialized</data>
+  <data key="d3">1</data>
+</node>
+<node id="Event_4696">
+  <data key="d0">Event</data>
+  <data key="d1">Event_4696</data>
+  <data key="d2">A primary token was assigned to process.  Subject: 	Security ID:		S-1-5-18 	Account Name:		- 	Accoun...</data>
+  <data key="d3">1</data>
+</node>
+<node id="Event_4826">
+  <data key="d0">Event</data>
+  <data key="d1">Event_4826</data>
+  <data key="d2">Boot Configuration Data loaded.  Subject: 	Security ID:		S-1-5-18 	Account Name:		- 	Account Domain:...</data>
+  <data key="d3">1</data>
+</node>
+<node id="Event_55">
+  <data key="d0">Event</data>
+  <data key="d1">Event_55</data>
+  <data key="d2">Processor 0 in group 0 exposes the following power management capabilities:  Idle state type: ACPI I...</data>
+  <data key="d3">1</data>
+</node>
+<node id="Event_32">
+  <data key="d0">Event</data>
+  <data key="d1">Event_32</data>
+  <data key="d2">The bootmgr spent 0 ms waiting for user input.</data>
+  <data key="d3">1</data>
+</node>
+<node id="Event_30">
+  <data key="d0">Event</data>
+  <data key="d1">Event_30</data>
+  <data key="d2">The firmware reported boot metrics.</data>
+  <data key="d3">1</data>
+</node>
+<node id="Event_46">
+  <data key="d0">Event</data>
+  <data key="d1">Event_46</data>
+  <data key="d2">Crash dump initialization failed!</data>
+  <data key="d3">1</data>
+</node>
+<node id="Event_172">
+  <data key="d0">Event</data>
+  <data key="d1">Event_172</data>
+  <data key="d2">Connectivity state in standby: Disconnected, Reason: NIC compliance</data>
+  <data key="d3">1</data>
+</node>
+<node id="Event_153">
+  <data key="d0">Event</data>
+  <data key="d1">Event_153</data>
+  <data key="d2">Virtualization-based security (policies: 0) is disabled.</data>
+  <data key="d3">1</data>
+</node>
+<node id="Event_238">
+  <data key="d0">Event</data>
+  <data key="d1">Event_238</data>
+  <data key="d2">EFI time zone bias: 2047. Daylight flags: 0</data>
+  <data key="d3">1</data>
+</node>
+<node id="Event_50103">
+  <data key="d0">Event</data>
+  <data key="d1">Event_50103</data>
+  <data key="d2">DHCPv4 client registered for shutdown notification</data>
+  <data key="d3">1</data>
+</node>
+<node id="Process_Thread_Count">
+  <data key="d0">Metric</data>
+  <data key="d1">Process_Thread_Count</data>
+</node>
+<node id="System_System_Up_Time">
+  <data key="d0">Metric</data>
+  <data key="d1">System_System_Up_Time</data>
+</node>
+<node id="Memory_Cache_Bytes">
+  <data key="d0">Metric</data>
+  <data key="d1">Memory_Cache_Bytes</data>
+</node>
+<node id="Process_Handle_Count">
+  <data key="d0">Metric</data>
+  <data key="d1">Process_Handle_Count</data>
+</node>
+<node id="Memory_Committed_Bytes">
+  <data key="d0">Metric</data>
+  <data key="d1">Memory_Committed_Bytes</data>
+</node>
+<node id="System_Processes">
+  <data key="d0">Metric</data>
+  <data key="d1">System_Processes</data>
+</node>
+<node id="Memory_%_Committed_Bytes_In_Use">
+  <data key="d0">Metric</data>
+  <data key="d1">Memory_%_Committed_Bytes_In_Use</data>
+</node>
+<node id="Memory_Available_Bytes">
+  <data key="d0">Metric</data>
+  <data key="d1">Memory_Available_Bytes</data>
+</node>
+<node id="Memory_Pool_Paged_Bytes">
+  <data key="d0">Metric</data>
+  <data key="d1">Memory_Pool_Paged_Bytes</data>
+</node>
+<node id="System_Processor_Queue_Length">
+  <data key="d0">Metric</data>
+  <data key="d1">System_Processor_Queue_Length</data>
+</node>
+<node id="LogicalDisk_Free_Megabytes">
+  <data key="d0">Metric</data>
+  <data key="d1">LogicalDisk_Free_Megabytes</data>
+</node>
+<node id="Process_Working_Set">
+  <data key="d0">Metric</data>
+  <data key="d1">Process_Working_Set</data>
+</node>
+<node id="Network Interface_Packets_Outbound_Errors">
+  <data key="d0">Metric</data>
+  <data key="d1">Network Interface_Packets_Outbound_Errors</data>
+</node>
+<node id="Network Interface_Packets_Received_Errors">
+  <data key="d0">Metric</data>
+  <data key="d1">Network Interface_Packets_Received_Errors</data>
+</node>
+<node id="Processor Information_Processor_Frequency">
+  <data key="d0">Metric</data>
+  <data key="d1">Processor Information_Processor_Frequency</data>
+</node>
+<node id="Process_Working_Set_-_Private">
+  <data key="d0">Metric</data>
+  <data key="d1">Process_Working_Set_-_Private</data>
+</node>
+<node id="LogicalDisk_%_Free_Space">
+  <data key="d0">Metric</data>
+  <data key="d1">LogicalDisk_%_Free_Space</data>
+</node>
+<node id="Memory_Pool_Nonpaged_Bytes">
+  <data key="d0">Metric</data>
+  <data key="d1">Memory_Pool_Nonpaged_Bytes</data>
+</node>
+<node id="LogicalDisk_Disk_Read_Bytes/sec">
+  <data key="d0">Metric</data>
+  <data key="d1">LogicalDisk_Disk_Read_Bytes/sec</data>
+</node>
+<node id="LogicalDisk_Disk_Bytes/sec">
+  <data key="d0">Metric</data>
+  <data key="d1">LogicalDisk_Disk_Bytes/sec</data>
+</node>
+<node id="Network Interface_Bytes_Total/sec">
+  <data key="d0">Metric</data>
+  <data key="d1">Network Interface_Bytes_Total/sec</data>
+</node>
+<node id="Network Interface_Packets_Sent/sec">
+  <data key="d0">Metric</data>
+  <data key="d1">Network Interface_Packets_Sent/sec</data>
+</node>
+<node id="LogicalDisk_Avg._Disk_sec/Transfer">
+  <data key="d0">Metric</data>
+  <data key="d1">LogicalDisk_Avg._Disk_sec/Transfer</data>
+</node>
+<node id="LogicalDisk_%_Idle_Time">
+  <data key="d0">Metric</data>
+  <data key="d1">LogicalDisk_%_Idle_Time</data>
+</node>
+<node id="LogicalDisk_%_Disk_Write_Time">
+  <data key="d0">Metric</data>
+  <data key="d1">LogicalDisk_%_Disk_Write_Time</data>
+</node>
+<node id="Network Interface_Packets_Received/sec">
+  <data key="d0">Metric</data>
+  <data key="d1">Network Interface_Packets_Received/sec</data>
+</node>
+<node id="LogicalDisk_Disk_Write_Bytes/sec">
+  <data key="d0">Metric</data>
+  <data key="d1">LogicalDisk_Disk_Write_Bytes/sec</data>
+</node>
+<node id="LogicalDisk_%_Disk_Time">
+  <data key="d0">Metric</data>
+  <data key="d1">LogicalDisk_%_Disk_Time</data>
+</node>
+<node id="Memory_Page_Faults/sec">
+  <data key="d0">Metric</data>
+  <data key="d1">Memory_Page_Faults/sec</data>
+</node>
+<node id="LogicalDisk_Avg._Disk_sec/Write">
+  <data key="d0">Metric</data>
+  <data key="d1">LogicalDisk_Avg._Disk_sec/Write</data>
+</node>
+<node id="Process">
+  <data key="d0">Component</data>
+  <data key="d1">Process</data>
+</node>
+<node id="System">
+  <data key="d0">Component</data>
+  <data key="d1">System</data>
+</node>
+<node id="Memory">
+  <data key="d0">Component</data>
+  <data key="d1">Memory</data>
+</node>
+<node id="LogicalDisk">
+  <data key="d0">Component</data>
+  <data key="d1">LogicalDisk</data>
+</node>
+<node id="Network Interface">
+  <data key="d0">Component</data>
+  <data key="d1">Network Interface</data>
+</node>
+<node id="Processor Information">
+  <data key="d0">Component</data>
+  <data key="d1">Processor Information</data>
+</node>
+<edge source="Event_5379" target="forensicsacl2">
+  <data key="d4">OCCURS_IN</data>
+  <data key="d5">112</data>
+</edge>
+<edge source="Event_5379" target="Event_5379">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">89</data>
+  <data key="d6">0.001</data>
+</edge>
+<edge source="Event_5379" target="Event_4799">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">6.759</data>
+</edge>
+<edge source="Event_5379" target="Event_4624">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">6</data>
+  <data key="d6">0.195</data>
+</edge>
+<edge source="Event_5379" target="Event_44">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">1.028</data>
+</edge>
+<edge source="Event_5379" target="Event_8230">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">1.857</data>
+</edge>
+<edge source="Event_5379" target="Event_7040">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">2</data>
+  <data key="d6">0.831</data>
+</edge>
+<edge source="Event_5379" target="Event_16">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">4</data>
+  <data key="d6">1.051</data>
+</edge>
+<edge source="Event_5379" target="Event_6">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">1.491</data>
+</edge>
+<edge source="Event_5379" target="Event_19">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.533</data>
+</edge>
+<edge source="Event_5379" target="Event_15">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">3</data>
+  <data key="d6">4.968</data>
+</edge>
+<edge source="Event_5379" target="Event_16394">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">45.84</data>
+</edge>
+<edge source="Event_5379" target="Event_16384">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">30.057</data>
+</edge>
+<edge source="Event_4624" target="forensicsacl2">
+  <data key="d4">OCCURS_IN</data>
+  <data key="d5">91</data>
+</edge>
+<edge source="Event_4624" target="Event_4624">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">3</data>
+  <data key="d6">0.096</data>
+</edge>
+<edge source="Event_4624" target="Event_4672">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">76</data>
+  <data key="d6">0.0</data>
+</edge>
+<edge source="Event_4624" target="Event_44">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">2</data>
+  <data key="d6">1.035</data>
+</edge>
+<edge source="Event_4624" target="Event_16">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.293</data>
+</edge>
+<edge source="Event_4624" target="Event_5379">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.152</data>
+</edge>
+<edge source="Event_4624" target="Event_16384">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">2</data>
+  <data key="d6">15.654</data>
+</edge>
+<edge source="Event_4624" target="Event_7040">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.161</data>
+</edge>
+<edge source="Event_4624" target="Event_4799">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.012</data>
+</edge>
+<edge source="Event_4672" target="forensicsacl2">
+  <data key="d4">OCCURS_IN</data>
+  <data key="d5">88</data>
+</edge>
+<edge source="Event_4672" target="Event_4624">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">38</data>
+  <data key="d6">1.749</data>
+</edge>
+<edge source="Event_4672" target="Event_16">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">6</data>
+  <data key="d6">0.051</data>
+</edge>
+<edge source="Event_4672" target="Event_4648">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">4</data>
+  <data key="d6">1.448</data>
+</edge>
+<edge source="Event_4672" target="Event_24">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">4.644</data>
+</edge>
+<edge source="Event_4672" target="Event_6">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.088</data>
+</edge>
+<edge source="Event_4672" target="Event_4799">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">3</data>
+  <data key="d6">0.157</data>
+</edge>
+<edge source="Event_4672" target="Event_5379">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">10</data>
+  <data key="d6">1.2610000000000001</data>
+</edge>
+<edge source="Event_4672" target="Event_7040">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.771</data>
+</edge>
+<edge source="Event_4672" target="Event_5058">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">4</data>
+  <data key="d6">1.392</data>
+</edge>
+<edge source="Event_4672" target="Event_8230">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.108</data>
+</edge>
+<edge source="Event_4672" target="Event_1034">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.304</data>
+</edge>
+<edge source="Event_4672" target="Event_10016">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">1.0</data>
+</edge>
+<edge source="Event_4672" target="Event_0">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">8.968</data>
+</edge>
+<edge source="Event_4672" target="Event_4798">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">2</data>
+  <data key="d6">6.28</data>
+</edge>
+<edge source="Event_4672" target="Event_44">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">2</data>
+  <data key="d6">5.102</data>
+</edge>
+<edge source="Event_4672" target="Event_16394">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">17.244</data>
+</edge>
+<edge source="Event_4672" target="Event_15">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">2</data>
+  <data key="d6">1.94</data>
+</edge>
+<edge source="Event_4672" target="Event_43">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.551</data>
+</edge>
+<edge source="Event_4672" target="Event_1">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.087</data>
+</edge>
+<edge source="Event_4672" target="Event_4672">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.1</data>
+</edge>
+<edge source="Event_4672" target="Event_1001">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.127</data>
+</edge>
+<edge source="Event_16" target="forensicsacl2">
+  <data key="d4">OCCURS_IN</data>
+  <data key="d5">57</data>
+</edge>
+<edge source="Event_16" target="Event_6">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.296</data>
+</edge>
+<edge source="Event_16" target="Event_11">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">4.433</data>
+</edge>
+<edge source="Event_16" target="Event_4688">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.034</data>
+</edge>
+<edge source="Event_16" target="Event_4624">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">8</data>
+  <data key="d6">0.157</data>
+</edge>
+<edge source="Event_16" target="Event_7040">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.058</data>
+</edge>
+<edge source="Event_16" target="Event_16">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">11</data>
+  <data key="d6">20.858</data>
+</edge>
+<edge source="Event_16" target="Event_44">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">4</data>
+  <data key="d6">15.079</data>
+</edge>
+<edge source="Event_16" target="Event_4672">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">3</data>
+  <data key="d6">10.169</data>
+</edge>
+<edge source="Event_16" target="Event_4799">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">2</data>
+  <data key="d6">0.126</data>
+</edge>
+<edge source="Event_16" target="Event_5379">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">5</data>
+  <data key="d6">1.803</data>
+</edge>
+<edge source="Event_16" target="Event_15">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">2</data>
+  <data key="d6">0.213</data>
+</edge>
+<edge source="Event_16" target="Event_43">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">4</data>
+  <data key="d6">4.857</data>
+</edge>
+<edge source="Event_16" target="Event_19">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">8</data>
+  <data key="d6">2.068</data>
+</edge>
+<edge source="Event_16" target="Event_20">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">2.9699999999999998</data>
+</edge>
+<edge source="Event_16" target="Event_10016">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.009</data>
+</edge>
+<edge source="Event_16" target="Event_16394">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">1.27</data>
+</edge>
+<edge source="Event_16" target="Event_1001">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">3.863</data>
+</edge>
+<edge source="Event_4799" target="forensicsacl2">
+  <data key="d4">OCCURS_IN</data>
+  <data key="d5">27</data>
+</edge>
+<edge source="Event_4799" target="Event_4799">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">15</data>
+  <data key="d6">0.001</data>
+</edge>
+<edge source="Event_4799" target="Event_4624">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">2</data>
+  <data key="d6">0.004</data>
+</edge>
+<edge source="Event_4799" target="Event_16">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">2</data>
+  <data key="d6">3.7800000000000002</data>
+</edge>
+<edge source="Event_4799" target="Event_4798">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">2</data>
+  <data key="d6">4.216</data>
+</edge>
+<edge source="Event_4799" target="Event_5379">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.638</data>
+</edge>
+<edge source="Event_4799" target="Event_15">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.012</data>
+</edge>
+<edge source="Event_4799" target="Event_44">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">7.83</data>
+</edge>
+<edge source="Event_4799" target="Event_4672">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.002</data>
+</edge>
+<edge source="Event_4799" target="Event_7040">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">31.371</data>
+</edge>
+<edge source="Event_15" target="forensicsacl2">
+  <data key="d4">OCCURS_IN</data>
+  <data key="d5">25</data>
+</edge>
+<edge source="Event_15" target="Event_24">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.034</data>
+</edge>
+<edge source="Event_15" target="Event_5379">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">2</data>
+  <data key="d6">6.041</data>
+</edge>
+<edge source="Event_15" target="Event_44">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">3</data>
+  <data key="d6">0.828</data>
+</edge>
+<edge source="Event_15" target="Event_4624">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">3</data>
+  <data key="d6">2.027</data>
+</edge>
+<edge source="Event_15" target="Event_15">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">5</data>
+  <data key="d6">2.235</data>
+</edge>
+<edge source="Event_15" target="Event_16">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">4</data>
+  <data key="d6">1.99</data>
+</edge>
+<edge source="Event_15" target="Event_16384">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">2</data>
+  <data key="d6">0.468</data>
+</edge>
+<edge source="Event_15" target="Event_0">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">6.911</data>
+</edge>
+<edge source="Event_15" target="Event_4672">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">2</data>
+  <data key="d6">3.505</data>
+</edge>
+<edge source="Event_15" target="Event_10016">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">1.297</data>
+</edge>
+<edge source="Event_1034" target="forensicsacl2">
+  <data key="d4">OCCURS_IN</data>
+  <data key="d5">20</data>
+</edge>
+<edge source="Event_1034" target="Event_1034">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">16</data>
+  <data key="d6">0.047</data>
+</edge>
+<edge source="Event_1034" target="Event_1033">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.0</data>
+</edge>
+<edge source="Event_1034" target="Event_1003">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">2</data>
+  <data key="d6">0.062</data>
+</edge>
+<edge source="Event_1034" target="Event_8197">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.016</data>
+</edge>
+<edge source="Event_44" target="forensicsacl2">
+  <data key="d4">OCCURS_IN</data>
+  <data key="d5">20</data>
+</edge>
+<edge source="Event_44" target="Event_0">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">14.171</data>
+</edge>
+<edge source="Event_44" target="Event_4624">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">4</data>
+  <data key="d6">7.214</data>
+</edge>
+<edge source="Event_44" target="Event_44">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">3</data>
+  <data key="d6">0.001</data>
+</edge>
+<edge source="Event_44" target="Event_16384">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">15.864</data>
+</edge>
+<edge source="Event_44" target="Event_16">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">4</data>
+  <data key="d6">13.418</data>
+</edge>
+<edge source="Event_44" target="Event_15">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">2</data>
+  <data key="d6">5.634</data>
+</edge>
+<edge source="Event_44" target="Event_43">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">4</data>
+  <data key="d6">0.486</data>
+</edge>
+<edge source="Event_43" target="forensicsacl2">
+  <data key="d4">OCCURS_IN</data>
+  <data key="d5">14</data>
+</edge>
+<edge source="Event_43" target="Event_15">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.254</data>
+</edge>
+<edge source="Event_43" target="Event_16">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">8</data>
+  <data key="d6">7.975</data>
+</edge>
+<edge source="Event_43" target="Event_4624">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.929</data>
+</edge>
+<edge source="Event_43" target="Event_20">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">2</data>
+  <data key="d6">0.654</data>
+</edge>
+<edge source="Event_43" target="Event_44">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.0</data>
+</edge>
+<edge source="Event_43" target="Event_19">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">1.421</data>
+</edge>
+<edge source="Event_4798" target="forensicsacl2">
+  <data key="d4">OCCURS_IN</data>
+  <data key="d5">13</data>
+</edge>
+<edge source="Event_4798" target="Event_16">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">2</data>
+  <data key="d6">2.31</data>
+</edge>
+<edge source="Event_4798" target="Event_4798">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">7</data>
+  <data key="d6">3.04</data>
+</edge>
+<edge source="Event_4798" target="Event_4624">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">2</data>
+  <data key="d6">0.765</data>
+</edge>
+<edge source="Event_4798" target="Event_4799">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">2</data>
+  <data key="d6">6.375</data>
+</edge>
+<edge source="Event_4688" target="forensicsacl2">
+  <data key="d4">OCCURS_IN</data>
+  <data key="d5">11</data>
+</edge>
+<edge source="Event_4688" target="Event_4696">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.001</data>
+</edge>
+<edge source="Event_4688" target="Event_55">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">18.607</data>
+</edge>
+<edge source="Event_4688" target="Event_98">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.439</data>
+</edge>
+<edge source="Event_4688" target="Event_4688">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">5</data>
+  <data key="d6">0.365</data>
+</edge>
+<edge source="Event_4688" target="Event_16">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">2</data>
+  <data key="d6">0.131</data>
+</edge>
+<edge source="Event_6" target="forensicsacl2">
+  <data key="d4">OCCURS_IN</data>
+  <data key="d5">11</data>
+</edge>
+<edge source="Event_6" target="Event_6">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">5</data>
+  <data key="d6">0.001</data>
+</edge>
+<edge source="Event_6" target="Event_98">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">11.18</data>
+</edge>
+<edge source="Event_6" target="Event_172">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.427</data>
+</edge>
+<edge source="Event_6" target="Event_4624">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">2</data>
+  <data key="d6">0.027</data>
+</edge>
+<edge source="Event_6" target="Event_1">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.0</data>
+</edge>
+<edge source="Event_6" target="Event_16">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">1.962</data>
+</edge>
+<edge source="Event_5061" target="forensicsacl2">
+  <data key="d4">OCCURS_IN</data>
+  <data key="d5">11</data>
+</edge>
+<edge source="Event_5061" target="Event_5059">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">6</data>
+  <data key="d6">0.004</data>
+</edge>
+<edge source="Event_5061" target="Event_5058">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">2</data>
+  <data key="d6">0.001</data>
+</edge>
+<edge source="Event_5061" target="Event_4624">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">2</data>
+  <data key="d6">0.224</data>
+</edge>
+<edge source="Event_5061" target="Event_16394">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">1.833</data>
+</edge>
+<edge source="Event_5058" target="forensicsacl2">
+  <data key="d4">OCCURS_IN</data>
+  <data key="d5">11</data>
+</edge>
+<edge source="Event_5058" target="Event_5061">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">11</data>
+  <data key="d6">0.002</data>
+</edge>
+<edge source="Event_19" target="forensicsacl2">
+  <data key="d4">OCCURS_IN</data>
+  <data key="d5">11</data>
+</edge>
+<edge source="Event_19" target="Event_15">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">1.15</data>
+</edge>
+<edge source="Event_19" target="Event_5379">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.111</data>
+</edge>
+<edge source="Event_19" target="Event_43">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">2</data>
+  <data key="d6">0.788</data>
+</edge>
+<edge source="Event_19" target="Event_16">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">4</data>
+  <data key="d6">1.694</data>
+</edge>
+<edge source="Event_19" target="Event_44">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">2</data>
+  <data key="d6">1.6600000000000001</data>
+</edge>
+<edge source="Event_19" target="Event_16384">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">28.368</data>
+</edge>
+<edge source="Event_16384" target="forensicsacl2">
+  <data key="d4">OCCURS_IN</data>
+  <data key="d5">9</data>
+</edge>
+<edge source="Event_16384" target="Event_4799">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">24.988</data>
+</edge>
+<edge source="Event_16384" target="Event_15">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">2</data>
+  <data key="d6">1.5779999999999998</data>
+</edge>
+<edge source="Event_16384" target="Event_16394">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">2</data>
+  <data key="d6">5.235</data>
+</edge>
+<edge source="Event_16384" target="Event_7040">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">7.0</data>
+</edge>
+<edge source="Event_16384" target="Event_4624">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">6.083</data>
+</edge>
+<edge source="Event_16384" target="Event_4672">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">33.246</data>
+</edge>
+<edge source="Event_16394" target="forensicsacl2">
+  <data key="d4">OCCURS_IN</data>
+  <data key="d5">8</data>
+</edge>
+<edge source="Event_16394" target="Event_15">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">2</data>
+  <data key="d6">1.296</data>
+</edge>
+<edge source="Event_16394" target="Event_5379">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.593</data>
+</edge>
+<edge source="Event_16394" target="Event_4624">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">13.458</data>
+</edge>
+<edge source="Event_16394" target="Event_43">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">2</data>
+  <data key="d6">1.788</data>
+</edge>
+<edge source="Event_16394" target="Event_4799">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">3.819</data>
+</edge>
+<edge source="Event_7040" target="forensicsacl2">
+  <data key="d4">OCCURS_IN</data>
+  <data key="d5">8</data>
+</edge>
+<edge source="Event_7040" target="Event_4798">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.784</data>
+</edge>
+<edge source="Event_7040" target="Event_16">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">2</data>
+  <data key="d6">0.41</data>
+</edge>
+<edge source="Event_7040" target="Event_7040">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">7.657</data>
+</edge>
+<edge source="Event_7040" target="Event_19">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">5.178</data>
+</edge>
+<edge source="Event_7040" target="Event_16394">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.531</data>
+</edge>
+<edge source="Event_5059" target="forensicsacl2">
+  <data key="d4">OCCURS_IN</data>
+  <data key="d5">8</data>
+</edge>
+<edge source="Event_5059" target="Event_5059">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">2</data>
+  <data key="d6">0.001</data>
+</edge>
+<edge source="Event_5059" target="Event_5058">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">4</data>
+  <data key="d6">0.136</data>
+</edge>
+<edge source="Event_5059" target="Event_44">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">7.176</data>
+</edge>
+<edge source="Event_5059" target="Event_4624">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">1.043</data>
+</edge>
+<edge source="Event_4648" target="forensicsacl2">
+  <data key="d4">OCCURS_IN</data>
+  <data key="d5">5</data>
+</edge>
+<edge source="Event_4648" target="Event_4624">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">3</data>
+  <data key="d6">0.0</data>
+</edge>
+<edge source="Event_20" target="forensicsacl2">
+  <data key="d4">OCCURS_IN</data>
+  <data key="d5">5</data>
+</edge>
+<edge source="Event_20" target="Event_238">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.0</data>
+</edge>
+<edge source="Event_20" target="Event_16">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.055</data>
+</edge>
+<edge source="Event_20" target="Event_5379">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">2.576</data>
+</edge>
+<edge source="Event_20" target="Event_16384">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">29.047</data>
+</edge>
+<edge source="Event_20" target="Event_4624">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.146</data>
+</edge>
+<edge source="Event_1" target="forensicsacl2">
+  <data key="d4">OCCURS_IN</data>
+  <data key="d5">5</data>
+</edge>
+<edge source="Event_1" target="Event_3">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.069</data>
+</edge>
+<edge source="Event_1" target="Event_6">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.089</data>
+</edge>
+<edge source="Event_1" target="Event_15">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">2.047</data>
+</edge>
+<edge source="Event_1" target="Event_4624">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.049</data>
+</edge>
+<edge source="Event_11" target="forensicsacl2">
+  <data key="d4">OCCURS_IN</data>
+  <data key="d5">4</data>
+</edge>
+<edge source="Event_11" target="Event_15">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">2.257</data>
+</edge>
+<edge source="Event_11" target="Event_10">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.046</data>
+</edge>
+<edge source="Event_11" target="Event_4624">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.04</data>
+</edge>
+<edge source="Event_258" target="forensicsacl2">
+  <data key="d4">OCCURS_IN</data>
+  <data key="d5">4</data>
+</edge>
+<edge source="Event_258" target="Event_264">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">2</data>
+  <data key="d6">0.359</data>
+</edge>
+<edge source="Event_258" target="Event_258">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.211</data>
+</edge>
+<edge source="Event_258" target="Event_4624">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">2.797</data>
+</edge>
+<edge source="Event_0" target="forensicsacl2">
+  <data key="d4">OCCURS_IN</data>
+  <data key="d5">3</data>
+</edge>
+<edge source="Event_0" target="Event_4624">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">2</data>
+  <data key="d6">4.328</data>
+</edge>
+<edge source="Event_0" target="Event_4798">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">10.097</data>
+</edge>
+<edge source="Event_8230" target="forensicsacl2">
+  <data key="d4">OCCURS_IN</data>
+  <data key="d5">3</data>
+</edge>
+<edge source="Event_8230" target="Event_4624">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">2</data>
+  <data key="d6">0.079</data>
+</edge>
+<edge source="Event_8230" target="Event_8197">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.031</data>
+</edge>
+<edge source="Event_10" target="forensicsacl2">
+  <data key="d4">OCCURS_IN</data>
+  <data key="d5">3</data>
+</edge>
+<edge source="Event_10" target="Event_11">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">3</data>
+  <data key="d6">0.0</data>
+</edge>
+<edge source="Event_10016" target="forensicsacl2">
+  <data key="d4">OCCURS_IN</data>
+  <data key="d5">3</data>
+</edge>
+<edge source="Event_10016" target="Event_1">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.5</data>
+</edge>
+<edge source="Event_10016" target="Event_16">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.105</data>
+</edge>
+<edge source="Event_10016" target="Event_15">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.762</data>
+</edge>
+<edge source="Event_98" target="forensicsacl2">
+  <data key="d4">OCCURS_IN</data>
+  <data key="d5">3</data>
+</edge>
+<edge source="Event_98" target="Event_98">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">1.297</data>
+</edge>
+<edge source="Event_98" target="Event_46">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.358</data>
+</edge>
+<edge source="Event_98" target="Event_16">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.5</data>
+</edge>
+<edge source="Event_1033" target="forensicsacl2">
+  <data key="d4">OCCURS_IN</data>
+  <data key="d5">2</data>
+</edge>
+<edge source="Event_1033" target="Event_1034">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">2</data>
+  <data key="d6">0.062</data>
+</edge>
+<edge source="Event_1003" target="forensicsacl2">
+  <data key="d4">OCCURS_IN</data>
+  <data key="d5">2</data>
+</edge>
+<edge source="Event_1003" target="Event_1034">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.0</data>
+</edge>
+<edge source="Event_1003" target="Event_1033">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.031</data>
+</edge>
+<edge source="Event_264" target="forensicsacl2">
+  <data key="d4">OCCURS_IN</data>
+  <data key="d5">2</data>
+</edge>
+<edge source="Event_264" target="Event_258">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">2</data>
+  <data key="d6">2.5</data>
+</edge>
+<edge source="Event_1001" target="forensicsacl2">
+  <data key="d4">OCCURS_IN</data>
+  <data key="d5">2</data>
+</edge>
+<edge source="Event_1001" target="Event_5379">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">1.199</data>
+</edge>
+<edge source="Event_1001" target="Event_15">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">23.469</data>
+</edge>
+<edge source="Event_18" target="forensicsacl2">
+  <data key="d4">OCCURS_IN</data>
+  <data key="d5">2</data>
+</edge>
+<edge source="Event_18" target="Event_32">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.0</data>
+</edge>
+<edge source="Event_18" target="Event_4624">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">1.156</data>
+</edge>
+<edge source="Event_8197" target="forensicsacl2">
+  <data key="d4">OCCURS_IN</data>
+  <data key="d5">2</data>
+</edge>
+<edge source="Event_8197" target="Event_8230">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">4.062</data>
+</edge>
+<edge source="Event_8197" target="Event_43">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.058</data>
+</edge>
+<edge source="Event_24" target="forensicsacl2">
+  <data key="d4">OCCURS_IN</data>
+  <data key="d5">2</data>
+</edge>
+<edge source="Event_24" target="Event_4688">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.001</data>
+</edge>
+<edge source="Event_24" target="Event_1">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.0</data>
+</edge>
+<edge source="Event_27" target="forensicsacl2">
+  <data key="d4">OCCURS_IN</data>
+  <data key="d5">1</data>
+</edge>
+<edge source="Event_27" target="Event_18">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.0</data>
+</edge>
+<edge source="Event_25" target="forensicsacl2">
+  <data key="d4">OCCURS_IN</data>
+  <data key="d5">1</data>
+</edge>
+<edge source="Event_25" target="Event_27">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.0</data>
+</edge>
+<edge source="Event_12" target="forensicsacl2">
+  <data key="d4">OCCURS_IN</data>
+  <data key="d5">1</data>
+</edge>
+<edge source="Event_12" target="Event_153">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.0</data>
+</edge>
+<edge source="Event_3" target="forensicsacl2">
+  <data key="d4">OCCURS_IN</data>
+  <data key="d5">1</data>
+</edge>
+<edge source="Event_3" target="Event_4688">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">3.037</data>
+</edge>
+<edge source="Event_4696" target="forensicsacl2">
+  <data key="d4">OCCURS_IN</data>
+  <data key="d5">1</data>
+</edge>
+<edge source="Event_4696" target="Event_4826">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.0</data>
+</edge>
+<edge source="Event_4826" target="forensicsacl2">
+  <data key="d4">OCCURS_IN</data>
+  <data key="d5">1</data>
+</edge>
+<edge source="Event_4826" target="Event_4688">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.436</data>
+</edge>
+<edge source="Event_55" target="forensicsacl2">
+  <data key="d4">OCCURS_IN</data>
+  <data key="d5">1</data>
+</edge>
+<edge source="Event_55" target="Event_1">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.001</data>
+</edge>
+<edge source="Event_32" target="forensicsacl2">
+  <data key="d4">OCCURS_IN</data>
+  <data key="d5">1</data>
+</edge>
+<edge source="Event_32" target="Event_30">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.0</data>
+</edge>
+<edge source="Event_30" target="forensicsacl2">
+  <data key="d4">OCCURS_IN</data>
+  <data key="d5">1</data>
+</edge>
+<edge source="Event_30" target="Event_20">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.004</data>
+</edge>
+<edge source="Event_46" target="forensicsacl2">
+  <data key="d4">OCCURS_IN</data>
+  <data key="d5">1</data>
+</edge>
+<edge source="Event_46" target="Event_6">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.029</data>
+</edge>
+<edge source="Event_172" target="forensicsacl2">
+  <data key="d4">OCCURS_IN</data>
+  <data key="d5">1</data>
+</edge>
+<edge source="Event_172" target="Event_4688">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.287</data>
+</edge>
+<edge source="Event_153" target="forensicsacl2">
+  <data key="d4">OCCURS_IN</data>
+  <data key="d5">1</data>
+</edge>
+<edge source="Event_153" target="Event_20">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.0</data>
+</edge>
+<edge source="Event_238" target="forensicsacl2">
+  <data key="d4">OCCURS_IN</data>
+  <data key="d5">1</data>
+</edge>
+<edge source="Event_238" target="Event_25">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.0</data>
+</edge>
+<edge source="Event_50103" target="forensicsacl2">
+  <data key="d4">OCCURS_IN</data>
+  <data key="d5">1</data>
+</edge>
+<edge source="Event_50103" target="Event_10">
+  <data key="d4">PRECEDES</data>
+  <data key="d5">1</data>
+  <data key="d6">0.015</data>
+</edge>
+<edge source="Process" target="Process_Thread_Count">
+  <data key="d4">AFFECTS</data>
+  <data key="d5">1</data>
+</edge>
+<edge source="Process" target="Process_Handle_Count">
+  <data key="d4">AFFECTS</data>
+  <data key="d5">1</data>
+</edge>
+<edge source="Process" target="Process_Working_Set">
+  <data key="d4">AFFECTS</data>
+  <data key="d5">1</data>
+</edge>
+<edge source="Process" target="Process_Working_Set_-_Private">
+  <data key="d4">AFFECTS</data>
+  <data key="d5">1</data>
+</edge>
+<edge source="System" target="System_System_Up_Time">
+  <data key="d4">AFFECTS</data>
+  <data key="d5">1</data>
+</edge>
+<edge source="System" target="System_Processes">
+  <data key="d4">AFFECTS</data>
+  <data key="d5">1</data>
+</edge>
+<edge source="System" target="System_Processor_Queue_Length">
+  <data key="d4">AFFECTS</data>
+  <data key="d5">1</data>
+</edge>
+<edge source="Memory" target="Memory_Cache_Bytes">
+  <data key="d4">AFFECTS</data>
+  <data key="d5">1</data>
+</edge>
+<edge source="Memory" target="Memory_Committed_Bytes">
+  <data key="d4">AFFECTS</data>
+  <data key="d5">1</data>
+</edge>
+<edge source="Memory" target="Memory_%_Committed_Bytes_In_Use">
+  <data key="d4">AFFECTS</data>
+  <data key="d5">1</data>
+</edge>
+<edge source="Memory" target="Memory_Available_Bytes">
+  <data key="d4">AFFECTS</data>
+  <data key="d5">1</data>
+</edge>
+<edge source="Memory" target="Memory_Pool_Paged_Bytes">
+  <data key="d4">AFFECTS</data>
+  <data key="d5">1</data>
+</edge>
+<edge source="Memory" target="Memory_Pool_Nonpaged_Bytes">
+  <data key="d4">AFFECTS</data>
+  <data key="d5">1</data>
+</edge>
+<edge source="Memory" target="Memory_Page_Faults/sec">
+  <data key="d4">AFFECTS</data>
+  <data key="d5">1</data>
+</edge>
+<edge source="LogicalDisk" target="LogicalDisk_Free_Megabytes">
+  <data key="d4">AFFECTS</data>
+  <data key="d5">1</data>
+</edge>
+<edge source="LogicalDisk" target="LogicalDisk_%_Free_Space">
+  <data key="d4">AFFECTS</data>
+  <data key="d5">1</data>
+</edge>
+<edge source="LogicalDisk" target="LogicalDisk_Disk_Read_Bytes/sec">
+  <data key="d4">AFFECTS</data>
+  <data key="d5">1</data>
+</edge>
+<edge source="LogicalDisk" target="LogicalDisk_Disk_Bytes/sec">
+  <data key="d4">AFFECTS</data>
+  <data key="d5">1</data>
+</edge>
+<edge source="LogicalDisk" target="LogicalDisk_Avg._Disk_sec/Transfer">
+  <data key="d4">AFFECTS</data>
+  <data key="d5">1</data>
+</edge>
+<edge source="LogicalDisk" target="LogicalDisk_%_Idle_Time">
+  <data key="d4">AFFECTS</data>
+  <data key="d5">1</data>
+</edge>
+<edge source="LogicalDisk" target="LogicalDisk_%_Disk_Write_Time">
+  <data key="d4">AFFECTS</data>
+  <data key="d5">1</data>
+</edge>
+<edge source="LogicalDisk" target="LogicalDisk_Disk_Write_Bytes/sec">
+  <data key="d4">AFFECTS</data>
+  <data key="d5">1</data>
+</edge>
+<edge source="LogicalDisk" target="LogicalDisk_%_Disk_Time">
+  <data key="d4">AFFECTS</data>
+  <data key="d5">1</data>
+</edge>
+<edge source="LogicalDisk" target="LogicalDisk_Avg._Disk_sec/Write">
+  <data key="d4">AFFECTS</data>
+  <data key="d5">1</data>
+</edge>
+<edge source="Network Interface" target="Network Interface_Packets_Outbound_Errors">
+  <data key="d4">AFFECTS</data>
+  <data key="d5">1</data>
+</edge>
+<edge source="Network Interface" target="Network Interface_Packets_Received_Errors">
+  <data key="d4">AFFECTS</data>
+  <data key="d5">1</data>
+</edge>
+<edge source="Network Interface" target="Network Interface_Bytes_Total/sec">
+  <data key="d4">AFFECTS</data>
+  <data key="d5">1</data>
+</edge>
+<edge source="Network Interface" target="Network Interface_Packets_Sent/sec">
+  <data key="d4">AFFECTS</data>
+  <data key="d5">1</data>
+</edge>
+<edge source="Network Interface" target="Network Interface_Packets_Received/sec">
+  <data key="d4">AFFECTS</data>
+  <data key="d5">1</data>
+</edge>
+<edge source="Processor Information" target="Processor Information_Processor_Frequency">
+  <data key="d4">AFFECTS</data>
+  <data key="d5">1</data>
+</edge>
+</graph></graphml>

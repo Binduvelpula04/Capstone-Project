@@ -1,0 +1,98 @@
+====================================================================================================
+ROOT CAUSE ANALYSIS REPORT
+====================================================================================================
+
+## Executive Summary
+
+Based on analysis of 87 entities and 828 relationships, we have identified 10 primary root causes affecting system performance.
+
+## Top Root Causes
+
+### 1. Event_16
+
+**Description:** The iommu fault reporting has been initialized.
+
+**Impact Score:** 0.7064
+
+**Affects:** 31 downstream entities
+
+**Directly Impacts:**
+  - forensicsacl2 (System)
+  - Event_6 (Event)
+  - Event_11 (Event)
+  - Event_4688 (Event)
+  - Event_4624 (Event)
+
+
+### 2. Event_4672
+
+**Description:** Special privileges assigned to new logon.  Subject: 	Security ID:		S-1-5-18 	Account Name:		SYSTEM 	...
+
+**Impact Score:** 0.5652
+
+**Affects:** 34 downstream entities
+
+**Directly Impacts:**
+  - forensicsacl2 (System)
+  - Event_4624 (Event)
+  - Event_16 (Event)
+  - Event_4648 (Event)
+  - Event_24 (Event)
+
+
+### 3. Event_4624
+
+**Description:** An account was successfully logged on.  Subject: 	Security ID:		S-1-0-0 	Account Name:		- 	Account D...
+
+**Impact Score:** 0.5520
+
+**Affects:** 21 downstream entities
+
+**Directly Impacts:**
+  - forensicsacl2 (System)
+  - Event_4624 (Event)
+  - Event_4672 (Event)
+  - Event_44 (Event)
+  - Event_16 (Event)
+
+
+### 4. Event_15
+
+**Description:** Hive \SystemRoot\System32\Config\SOFTWARE was reorganized with a starting size of 74772480 bytes and...
+
+**Impact Score:** 0.3846
+
+**Affects:** 22 downstream entities
+
+**Directly Impacts:**
+  - forensicsacl2 (System)
+  - Event_24 (Event)
+  - Event_5379 (Event)
+  - Event_44 (Event)
+  - Event_4624 (Event)
+
+
+### 5. Event_5379
+
+**Description:** Credential Manager credentials were read.  Subject: 	Security ID:		S-1-5-18 	Account Name:		forensic...
+
+**Impact Score:** 0.3610
+
+**Affects:** 20 downstream entities
+
+**Directly Impacts:**
+  - forensicsacl2 (System)
+  - Event_5379 (Event)
+  - Event_4799 (Event)
+  - Event_4624 (Event)
+  - Event_44 (Event)
+
+
+## Recommendations
+
+1. **Monitor high priority events:** Focus on events with high out degree centrality.
+2. **Implement early warning systems:** Set up alerts for critical root cause events.
+3. **Review system architecture:** Consider isolating components with very high impact.
+4. **Conduct deeper analysis:** Investigate temporal patterns of recurring root cause events.
+
+====================================================================================================
