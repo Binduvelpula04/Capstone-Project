@@ -65,8 +65,43 @@ We move beyond simple search to "scoring" potential root causes using a weighted
 
 ## Installation & Workflow
 
-**Prerequisites**
-The project requires libraries for data handling, graph construction, and machine learning, including **NetworkX**, **PyTorch** (with CUDA support checked), and **matplotlib**.
+## Installation & Workflow
+
+### **Important: Google Colab Environment**
+This project is designed to run specifically on **Google Colab**. It requires access to an OpenAI API key to perform the Narrative Synthesis (Phase 4).
+
+### **Prerequisites**
+1. A Google Account to access [Google Colab](https://colab.research.google.com/).
+2. An active OpenAI API Key (starts with `sk-...`).
+
+### **Setting up OpenAI API Key in Google Colab**
+To keep your API key secure, do **not** paste it directly into the code cells. Instead, use Google Colab's built-in "Secrets" manager.
+
+**Step 1: Open the Secrets Manager**
+Open your notebook in Google Colab. On the left sidebar, click the **Key icon** (Secrets).
+
+![Google Colab Secrets icon](https://storage.googleapis.com/gweb-cloudblog-publish/images/secrets_management.max-700x700.png)
+*(Note: Replace with a screenshot of the sidebar key icon if needed)*
+
+**Step 2: Add a New Secret**
+Click **"Add new secret"**.
+* **Name:** Enter `OPENAI_API_KEY` (must be exact).
+* **Value:** Paste your actual OpenAI API key (e.g., `sk-proj-123...`).
+
+**Step 3: Grant Notebook Access**
+Once the secret is saved, you will see a toggle switch named **"Notebook access"**. Click it to enable access for the current notebook.
+
+**Step 4: Verify Access in Code**
+The notebook is already configured to read this key. It uses the following code to securely fetch your credential:
+```python
+from google.colab import userdata
+import os
+
+# Securely retrieve the key
+api_key = userdata.get('OPENAI_API_KEY')
+os.environ["OPENAI_API_KEY"] = api_key
+
+
 
   **Steps to Run**
 1. **Data Preprocessing:** Load event and performance CSVs. The system cleans timestamps, handles missing values, and merges data into a time-aligned dataset.
@@ -98,3 +133,5 @@ The pipeline was tested on a real dataset from the **forensicsacl2** server.
 8. **LLMs for Anomaly Detection:** ACL Anthology. https://aclanthology.org/2025.findings-naacl.333.pdf
 9. **AIOps for Log Anomaly Detection:** ScienceDirect. https://www.sciencedirect.com/science/article/pii/S2667305325001346
 10. **Root-KGD:** Arxiv. https://arxiv.org/abs/2406.13664
+
+
