@@ -38,6 +38,7 @@ print("All dependencies installed successfully!")
 # Data manipulation and analysis
 import pandas as pd
 import numpy as np
+import os
 from datetime import datetime, timedelta
 import warnings
 warnings.filterwarnings('ignore')
@@ -79,18 +80,27 @@ Load both CSV files, explore the data structure, and perform comprehensive clean
 """
 
 # Load the CSV files
-# If files are in Google Drive, mount and update paths accordingly
-try:
-    events_df = pd.read_csv('/content/event.csv')
-    perf_df = pd.read_csv('/content/perf.csv')
-    print("Data loaded successfully!")
+# Check multiple locations for the datasets (Local 'Datasets' folder, current directory, or Colab /content/)
+possible_paths = [
+    'Datasets/event.csv',
+    'event.csv',
+    '/content/event.csv',
+    '../Datasets/event.csv'
+]
+
+event_path = next((path for path in possible_paths if os.path.exists(path)), None)
+perf_path = event_path.replace('event.csv', 'perf.csv') if event_path else None
+
+if event_path and perf_path and os.path.exists(perf_path):
+    events_df = pd.read_csv(event_path)
+    perf_df = pd.read_csv(perf_path)
+    print(f"Data loaded successfully from: {os.path.dirname(event_path)}")
     print(f"\n Events data shape: {events_df.shape}")
     print(f"Performance data shape: {perf_df.shape}")
-except FileNotFoundError:
-    print("Files not found. Please upload 'event.csv' and 'perf.csv' to Colab.")
-    print("Run the following to upload:")
-    print("from google.colab import files")
-    print("uploaded = files.upload()")
+else:
+    print("Files not found. Please ensure 'event.csv' and 'perf.csv' are in the 'Datasets/' folder or current directory.")
+    if 'google.colab' in str(get_ipython()):
+        print("On Colab, please upload files to /content/ or mount Drive.")
 
 """## 1.2 Initial Data Exploration"""
 
